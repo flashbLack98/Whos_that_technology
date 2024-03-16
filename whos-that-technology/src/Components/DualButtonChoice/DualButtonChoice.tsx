@@ -25,13 +25,13 @@ export default function DualButtonChoice() {
         <div className='d-flex flex-column'>
             <div className={`d-flex align-items-center ${randomNum % 2 ? 'flex-row-reverse' : ''}`}>
                 <div className='pokeball'>
-                    <div className='text-white text-capitalize'>{pokemon?.name}</div>
+                    <div className='pokeball-text'>{pokemon?.name}</div>
                 </div>
 
-                <div><button title='reset' type="button" className="btn btn-secondary" onClick={handleReset}>reset</button> </div>
+                <div className="mx-5"><button title='reset' type="button" className="btn btn-secondary" onClick={handleReset}>reset</button> </div>
 
                 <div className="pokeball">
-                    <div className='text-white text-capitalize'>{technology?.name}</div>
+                    <div className='pokeball-text'>{technology?.name}</div>
                 </div>
             </div>
         </div>

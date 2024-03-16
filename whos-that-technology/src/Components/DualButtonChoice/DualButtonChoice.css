@@ -1,14 +1,21 @@
 .pokeball{
     height: 150px;
     width: 150px;
-    font-size: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('https://www.clipartmax.com/png/middle/129-1298306_open-pokeball-google-search-pokemon-ball-open-png.png');
+    background-image: url('../../asset/pokeball.png');
     background-position: center;
     background-size: contain;
-    clip-path: circle(50%);
     margin: 0 20px;
     cursor: pointer;
+  }
+  
+  .pokeball-text{
+    font-size: 36px;
+    color: white;
+    text-transform: capitalize;
+    background-color: #eb212129;
+    border-radius: 15px;
+    padding: 0 15px;
   }
