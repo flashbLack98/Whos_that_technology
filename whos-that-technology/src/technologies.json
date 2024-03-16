@@ -148,5 +148,131 @@
         "description": "A prototyping, collaboration, and workflow platform",
         "img": "invision.png",
         "category": "Design"
+    },
+    {
+        "name": "JavaScript",
+        "description": "High-level programming language for building interactive websites and applications",
+        "img": "javascript.png",
+        "category": "Programming"
+    },
+    {
+        "name": "Python",
+        "description": "High-level programming language known for its simplicity and readability",
+        "img": "python.png",
+        "category": "Programming"
+    },
+    {
+        "name": "Java",
+        "description": "General-purpose programming language known for its flexibility and platform independence",
+        "img": "java.png",
+        "category": "Programming"
+    },
+    {
+        "name": "C++",
+        "description": "General-purpose programming language known for its efficiency and performance",
+        "img": "cplusplus.png",
+        "category": "Programming"
+    },
+    {
+        "name": "Ruby",
+        "description": "Dynamic, reflective, object-oriented programming language",
+        "img": "ruby.png",
+        "category": "Programming"
+    },
+    {
+        "name": "PHP",
+        "description": "Server-side scripting language designed for web development",
+        "img": "php.png",
+        "category": "Programming"
+    },
+    {
+        "name": "Swift",
+        "description": "Powerful and intuitive programming language for macOS, iOS, watchOS, and tvOS development",
+        "img": "swift.png",
+        "category": "Programming"
+    },
+    {
+        "name": "Kotlin",
+        "description": "Statically typed programming language that runs on the Java Virtual Machine (JVM)",
+        "img": "kotlin.png",
+        "category": "Programming"
+    },
+    {
+        "name": "Go",
+        "description": "Open-source programming language designed for building simple, reliable, and efficient software",
+        "img": "go.png",
+        "category": "Programming"
+    },
+    {
+        "name": "Ruby on Rails",
+        "description": "Open-source web application framework written in Ruby",
+        "img": "rails.png",
+        "category": "Programming"
+    },
+    {
+        "name": "Spring Framework",
+        "description": "Java-based framework for building enterprise-level applications",
+        "img": "spring.png",
+        "category": "Programming"
+    },
+    {
+        "name": "TensorFlow",
+        "description": "Open-source machine learning framework for building and training neural networks",
+        "img": "tensorflow.png",
+        "category": "Programming"
+    },
+    {
+        "name": "Ansible",
+        "description": "Open-source automation tool for configuration management and application deployment",
+        "img": "ansible.png",
+        "category": "Management"
+    },
+    {
+        "name": "Chef",
+        "description": "Infrastructure automation platform that transforms infrastructure into code",
+        "img": "chef.png",
+        "category": "Management"
+    },
+    {
+        "name": "Puppet",
+        "description": "Configuration management tool for deploying, configuring, and managing servers",
+        "img": "puppet.png",
+        "category": "Management"
+    },
+    {
+        "name": "Terraform",
+        "description": "Infrastructure as code software tool for building, changing, and versioning infrastructure safely and efficiently",
+        "img": "terraform.png",
+        "category": "Management"
+    },
+    {
+        "name": "JIRA",
+        "description": "Project management software used for issue tracking, bug tracking, and project management",
+        "img": "jira.png",
+        "category": "Management"
+    },
+    {
+        "name": "Asana",
+        "description": "Web and mobile application designed to help teams organize, track, and manage their work",
+        "img": "asana.png",
+        "category": "Management"
+    },
+    {
+        "name": "Slack",
+        "description": "Collaboration hub that connects teams with the apps, services, and resources they need",
+        "img": "slack.png",
+        "category": "Management"
+    },
+    {
+        "name": "Trello",
+        "description": "Web-based, list-making application for task management and project management",
+        "img": "trello.png",
+        "category": "Management"
+    },
+    {
+        "name": "Confluence",
+        "description": "Collaboration software that provides a place to create, organize, and discuss work",
+        "img": "confluence.png",
+        "category": "Management"
     }
 ]

@@ -29,7 +29,7 @@ export default function DualButtonChoice() {
                     <div className='text-white text-capitalize'>{pokemon?.name}</div>
                 </div>
                 <div className="pokeball">
-                    <div className='text-white text-capitalize'>{tecnology?.nome}</div>
+                    <div className='text-white text-capitalize'>{tecnology?.name}</div>
                 </div>  
             </div> 
         </div>

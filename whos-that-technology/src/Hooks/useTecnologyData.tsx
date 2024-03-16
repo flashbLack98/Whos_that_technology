@@ -13,8 +13,8 @@ export default function useTecnolgyData(number: number): TTecnology | null {
 }
 
 export type TTecnology = {
-    nome: string;
-    descrizione: string;
+    name: string;
+    description: string;
     img: string;
-    categoria: string;
+    category: string;
 }
