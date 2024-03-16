@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import tecnologies from "../technologies.json"
+import { TTechnology } from "../Types/TechnologyType";
 
 export default function useTecnolgyData(number: number): TTechnology | null {
     const [technology, settechnology] = useState<TTechnology | null >(null);
@@ -10,11 +11,4 @@ export default function useTecnolgyData(number: number): TTechnology | null {
     }, [number]);
     
      return technology;
-}
-
-export type TTechnology = {
-    name: string;
-    description: string;
-    img: string;
-    category: string;
 }

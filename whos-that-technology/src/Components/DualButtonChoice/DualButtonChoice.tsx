@@ -3,10 +3,11 @@ import "./DualButtonChoice.css";
 // hooks
 import { useState } from 'react';
 import usePokemonData from '../../Hooks/usePokemonData';
+import useTechnologyData from '../../Hooks/useTechnologyData';
 
 // interface
 import { IPokemon } from 'pokeapi-typescript';
-import useTechnologyData, { TTechnology } from '../../Hooks/useTechnologyData';
+import { TTechnology } from "../../Types/TechnologyType";
 
 export default function DualButtonChoice() {
 
