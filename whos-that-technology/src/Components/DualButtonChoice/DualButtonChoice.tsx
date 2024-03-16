@@ -1,37 +1,39 @@
-import "./DualButtonChoice.css"
+import "./DualButtonChoice.css";
 
 // hooks
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import usePokemonData from '../../Hooks/usePokemonData';
 
 // interface
 import { IPokemon } from 'pokeapi-typescript';
-import useTecnologyData, { TTecnology } from '../../Hooks/useTecnologyData';
+import useTechnologyData, { TTechnology } from '../../Hooks/useTechnologyData';
 
 export default function DualButtonChoice() {
 
     const [randomNum, setRandomNum] = useState<number>(1);
-    
+
     const pokemon: IPokemon | null = usePokemonData(randomNum);
-    const tecnology: TTecnology | null = useTecnologyData(randomNum);
+    const technology: TTechnology | null = useTechnologyData(randomNum);
 
     function handleReset(): void {
         const number = Math.floor(Math.random() * 1000);
-        setRandomNum(number)
+        setRandomNum(number);
     }
-    
+
 
     return (
         <div className='d-flex flex-column'>
-            <div><button title='reset' type="button" className="btn btn-secondary mb-3" onClick={handleReset}>reset</button> </div>
-            <div className={`d-flex ${randomNum % 2 ? 'flex-row-reverse' : ''}`}>
+            <div className={`d-flex align-items-center ${randomNum % 2 ? 'flex-row-reverse' : ''}`}>
                 <div className='pokeball'>
                     <div className='text-white text-capitalize'>{pokemon?.name}</div>
                 </div>
+
+                <div><button title='reset' type="button" className="btn btn-secondary" onClick={handleReset}>reset</button> </div>
+
                 <div className="pokeball">
-                    <div className='text-white text-capitalize'>{tecnology?.name}</div>
-                </div>  
-            </div> 
+                    <div className='text-white text-capitalize'>{technology?.name}</div>
+                </div>
+            </div>
         </div>
     );
 } 

@@ -6,7 +6,7 @@ import DualButtonChoice from './Components/DualButtonChoice/DualButtonChoice';
 function App() {
   return (
     <div className="App">
-      <h1>Who's that tecnology</h1>
+      <h1>Who's that technology</h1>
       
       <div className='container'>
         <div className="d-flex justify-content-center my-5">
