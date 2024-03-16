@@ -1,0 +1,74 @@
+[
+    {
+        "nome": "React.js",
+        "descrizione": "Libreria JavaScript per la creazione di interfacce utente",
+        "img": "react.png",
+        "categoria": "FE"
+    },
+    {
+        "nome": "Angular",
+        "descrizione": "Framework JavaScript per la creazione di applicazioni web",
+        "img": "angular.png",
+        "categoria": "FE"
+    },
+    {
+        "nome": "Vue.js",
+        "descrizione": "Framework JavaScript progressivo per la costruzione di interfacce utente",
+        "img": "vue.png",
+        "categoria": "FE"
+    },
+    {
+        "nome": "Node.js",
+        "descrizione": "Runtime JavaScript basato su Chrome V8 per il server-side",
+        "img": "node.png",
+        "categoria": "BE"
+    },
+    {
+        "nome": "Express.js",
+        "descrizione": "Framework per applicazioni web Node.js",
+        "img": "express.png",
+        "categoria": "BE"
+    },
+    {
+        "nome": "Django",
+        "descrizione": "Framework web Python ad alto livello",
+        "img": "django.png",
+        "categoria": "BE"
+    },
+    {
+        "nome": "Docker",
+        "descrizione": "Piattaforma per lo sviluppo, la distribuzione e l'esecuzione di applicazioni containerizzate",
+        "img": "docker.png",
+        "categoria": "DevOps"
+    },
+    {
+        "nome": "Kubernetes",
+        "descrizione": "Sistema open-source per l'automazione del deployment, scaling e gestione di applicazioni containerizzate",
+        "img": "kubernetes.png",
+        "categoria": "DevOps"
+    },
+    {
+        "nome": "Git",
+        "descrizione": "Sistema di controllo di versione distribuito",
+        "img": "git.png",
+        "categoria": "DevOps"
+    },
+    {
+        "nome": "Figma",
+        "descrizione": "Strumento di progettazione di interfacce utente basato su browser",
+        "img": "figma.png",
+        "categoria": "Designer"
+    },
+    {
+        "nome": "Sketch",
+        "descrizione": "Applicazione di progettazione vettoriale per macOS",
+        "img": "sketch.png",
+        "categoria": "Designer"
+    },
+    {
+        "nome": "Adobe XD",
+        "descrizione": "Strumento di progettazione di esperienze utente interattive",
+        "img": "adobe-xd.png",
+        "categoria": "Designer"
+    }
+]
