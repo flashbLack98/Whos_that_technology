@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Pokemon from './Components/Pokemon/Pokemon';
+import DualButtonChoice from './Components/DualButtonChoice/DualButtonChoice';
 
 function App() {
   return (
@@ -10,8 +10,7 @@ function App() {
       
       <div className='container'>
         <div className="d-flex justify-content-center my-5">
-           <Pokemon></Pokemon>
-          <div className="square bg-primary">Technology</div>  
+           <DualButtonChoice></DualButtonChoice>
         </div>
       </div>
 
