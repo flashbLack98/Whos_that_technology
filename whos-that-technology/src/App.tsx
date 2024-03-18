@@ -4,7 +4,7 @@ import './App.css';
 import DualButtonChoice from './Components/dualButtonChoice/DualButtonChoice';
 import Pokedex from './Components/pokedex/Pokedex';
 
-function App() {
+function App(): JSX.Element {
   return (
     <div className="App">
       <h1>Who's that technology</h1>

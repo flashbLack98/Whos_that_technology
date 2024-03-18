@@ -9,7 +9,7 @@ import useTechnologyData from '../../Hooks/useTechnologyData';
 import { IPokemon } from 'pokeapi-typescript';
 import { TTechnology } from "../../Types/TechnologyType";
 
-export default function DualButtonChoice() {
+export default function DualButtonChoice(): JSX.Element {
 
     const [randomNum, setRandomNum] = useState<number>(1);
 
