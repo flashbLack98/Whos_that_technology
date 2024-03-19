@@ -1,5 +1,3 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import DualButtonChoice from './Components/dualButtonChoice/DualButtonChoice';
 import Pokedex from './Components/pokedex/Pokedex';
@@ -7,10 +5,12 @@ import Pokedex from './Components/pokedex/Pokedex';
 function App(): JSX.Element {
   return (
     <div className="App">
-      <h1>Who's that technology</h1>
-      
       <div className='container'>
-        <div className="d-flex flex-column align-items-center my-5">
+        <div className="row my-3">
+          <h1 className='text-center'>Who's that technology</h1>
+        </div>
+      
+        <div className="row">
            <DualButtonChoice></DualButtonChoice>
            <Pokedex></Pokedex>
         </div>

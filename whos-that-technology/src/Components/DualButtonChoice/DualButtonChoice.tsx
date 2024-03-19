@@ -23,16 +23,22 @@ export default function DualButtonChoice(): JSX.Element {
 
 
     return (
-        <div className='d-flex flex-column'>
-            <div className={`d-flex align-items-center ${randomNum % 2 ? 'flex-row-reverse' : ''}`}>
-                <div className='pokeball'>
-                    <div className='pokeball-text'>{pokemon?.name}</div>
+        <div className="col-12">
+            <div className={`row justify-content-center align-items-center w-75 mx-auto ${randomNum % 2 ? 'flex-row-reverse' : ''}`}>
+                <div className="col-12 col-md-5">
+                    <div className='pokeball'>
+                        <div className='pokeball-text'>{pokemon?.name}</div>
+                    </div>
                 </div>
 
-                <div className="mx-5"><button title='reset' type="button" className="btn btn-secondary" onClick={handleReset}>reset</button> </div>
+                <div className="col-12 col-md-2">
+                    <button title='reset' type="button" className="btn btn-secondary d-block mx-auto" onClick={handleReset}>reset</button>
+                </div>
 
-                <div className="pokeball">
-                    <div className='pokeball-text'>{technology?.name}</div>
+                <div className="col-12 col-md-5">
+                    <div className="pokeball">
+                        <div className='pokeball-text'>{technology?.name}</div>
+                    </div>
                 </div>
             </div>
         </div>
