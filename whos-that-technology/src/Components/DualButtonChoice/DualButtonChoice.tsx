@@ -27,16 +27,19 @@ export default function DualButtonChoice(): JSX.Element {
             <div className={`row justify-content-center align-items-center w-75 mx-auto ${randomNum % 2 ? 'flex-row-reverse' : ''}`}>
                 <div className="col-12 col-md-5">
                     <div className='pokeball'>
+                        {/* TODO da cambiare un button per accessibilità, il cursor non viene preso correttamente */}
                         <div className='nes-btn'>{pokemon?.name}</div>
                     </div>
                 </div>
 
                 <div className="col-12 col-md-2">
-                    <button title='reset' type="button" className="nes-btn is-warning d-block mx-auto" onClick={handleReset}>reset</button>
+                    {/* TODO da cambiare un button per accessibilità, il cursor non viene preso correttamente */}
+                    <div title='reset' className="nes-btn is-warning d-block mx-auto" onClick={handleReset}>reset</div>
                 </div>
 
                 <div className="col-12 col-md-5">
                     <div className="pokeball">
+                        {/* TODO da cambiare un button per accessibilità, il cursor non viene preso correttamente */}
                         <div className='nes-btn'>{technology?.name}</div>
                     </div>
                 </div>
