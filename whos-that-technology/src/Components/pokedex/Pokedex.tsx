@@ -4,7 +4,7 @@ export default function Pokedex(): JSX.Element {
 
     return(
         <div className="col-12 my-5">
-            <div className="gameboy m-auto text-white">
+            <div className="gameboy m-auto">
                 <div className="pokemon-container m-auto">
                     <img className="pokemon" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png" alt="" />
                 </div>
