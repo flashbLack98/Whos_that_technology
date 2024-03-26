@@ -28,7 +28,7 @@ export default function DualButtonChoice(): JSX.Element {
                 <div className="col-12 col-md-5">
                     <div className='pokeball'>
                         {/* TODO da cambiare un button per accessibilità, il cursor non viene preso correttamente */}
-                        <div className='nes-btn'>{pokemon?.name}</div>
+                        <div className='nes-btn text-lowercase'>{pokemon?.name}</div>
                     </div>
                 </div>
 
@@ -40,7 +40,7 @@ export default function DualButtonChoice(): JSX.Element {
                 <div className="col-12 col-md-5">
                     <div className="pokeball">
                         {/* TODO da cambiare un button per accessibilità, il cursor non viene preso correttamente */}
-                        <div className='nes-btn'>{technology?.name}</div>
+                        <div className='nes-btn text-lowercase'>{technology?.name}</div>
                     </div>
                 </div>
             </div>

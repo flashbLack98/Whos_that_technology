@@ -1,0 +1,32 @@
+.gameboy{
+    background: #000000;
+    height: 350px;
+    width: 350px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+.pokemon-container{
+    width: 50%;
+    position: relative;
+}
+
+.pokemon{
+    height: 100%;
+    width: 100%;
+}
+
+.chips-container{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.description-container{
+    height: 50%;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
